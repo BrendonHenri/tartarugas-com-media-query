@@ -42,6 +42,7 @@ header p {
 }
 main{
     max-width: 100vw;
+    overflow: hidden;
 }
 article{
     max-width: 60vw;
