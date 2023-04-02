@@ -40,8 +40,6 @@ header h1{
     background-image: linear-gradient(to left, rgb(30, 0, 255),rgb(17, 189, 17));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-  
-
 }
 main{
     max-width: 100vw;
