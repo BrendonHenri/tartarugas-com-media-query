@@ -52,7 +52,7 @@ h2{
     text-align: center;
 }
 section{
-    max-width: 70vw;
+    max-width: 80vw;
     background-color: rgba(0, 255, 255, 0.181);
     margin:  auto;
     padding: 40px;
@@ -93,7 +93,7 @@ section p{
 
 footer{
     position: relative;
-    max-width: 70vw;
+    max-width: 80vw;
     height: 300px;
     margin: 30px auto ;
     background: black url(../imagens/footer.jpg)no-repeat center bottom;
@@ -132,9 +132,59 @@ footer i{
 .logos:hover{
     transform: translateX(-20px);
     transition-duration: .8s;
+    width: 45px;
+
+}
+
+#paiinsta:hover #instname{
+    display: block;
 }
 #insta{
     top: 40px;
+}
+#instname{
+    position: absolute;
+    display: none;
+    top: 50px; 
+    left: 640px;
+    font: italic 700 1.3em roboto sans-serif;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: escrever .8s steps(60, end) forwards;
+}
+#facename{
+    position: absolute;
+    display: none;
+    top: 90px; 
+    left: 640px;
+    font: italic 700 1.3em roboto sans-serif;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: escrever .8s steps(60, end) forwards;
+}
+#paiface:hover #facename{
+    display: block;
+}
+#linkename{
+    position: absolute;
+    display: none;
+    top: 140px; 
+    left: 640px;
+    font: italic 700 1.3em roboto sans-serif;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: escrever .8s steps(60, end) forwards;
+}
+#pailinke:hover #linkename{
+    display: block;
+}
+@keyframes escrever{
+    from {
+        width:0px;
+}
+    to{
+        width:200px;
+    }
 }
 #face{
     top: 80px;
@@ -142,16 +192,29 @@ footer i{
 #siga{
     position: absolute;
     top: 0px;
-    left: 600px;
-    font: normal small-caps 900 2vw 'Playfair Display SC', serif;
+    left: 650px;
+    font: italic small-caps 900 2vw 'Big Shoulders Text', serif;
 }
 #linke{
     top: 120px;
 }
+#home{
+    width: 50px;
+    position: absolute;
+    top: -20px ;
+    left: -50px;
+}
+#lhome{
+    width: 50px;
+    position: absolute;
+    top: 60px ;
+    left: 850px;
+    font: italic 700 1.2em 'Big Shoulders Text', cursive;
+}
 #copy{
     font:italic 700 1em 'Big Shoulders Text', cursive;
     text-align: center;
-    max-width: 70vw;
+    max-width: 80vw;
     filter: brightness(200%); 
     margin-top: 80px;
 }
