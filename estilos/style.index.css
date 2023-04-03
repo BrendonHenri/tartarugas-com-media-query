@@ -286,3 +286,71 @@ footer i{
     filter: brightness(200%); 
     margin-top: 70px;
 }
+@media screen and (max-width:600px){
+    header{
+        background: black url(../imagens/header-mobile.jpg) no-repeat center bottom;
+        background-size: cover;
+    }
+    header h1{
+       font-size: 7em;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        width: 400px;
+      
+    }
+    header p{
+        font-size:5vw;
+        position: absolute;
+        left: 50%;
+        top: 70%;
+        transform: translate(-50%,-50%);
+    }
+    #navmenu>li{
+        position: absolute;
+        top: 270px;
+        display: block;
+        margin:auto;
+        width: 100vw;
+    }
+ 
+    footer{
+        max-width: 100vw;
+       
+
+    }
+    footer h1{
+        font-size: 4em;
+        text-align: center;
+        max-width: 100vw;
+    }
+    footer p{
+        font-size: 1em;
+        max-width: 100vw;
+    }
+    #copy{
+        max-width: 100vw;
+        margin-top: 125px;
+    }
+  
+    #insta{
+       left: 50px;
+    }
+    #face{
+        left: 130px;
+    }
+    #linke{
+        left: 210px;
+    }
+    #linkename, #facename, #instname{
+        left: 80px;
+        top: 130px;      
+    }
+    #lhome{
+        left: 340px;
+        top: 200px;
+    }
+    #siga{
+        display: none;
+    }
+}
