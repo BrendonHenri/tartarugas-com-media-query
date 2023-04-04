@@ -48,12 +48,47 @@ header h1{
     animation: gradient 4s ease infinite;
     background-size: 300% 300%;
 }
+#bars{
+    display: none;
+}
+#navmenu>li{
+  margin: 210px 40px 0px 20px ;
+  float: left;
+  position: relative;
+  font: italic 700 1.3em roboto sans-serif;
+  background-color: rgb(255, 255, 255);
+  border-radius: 12px;
+
+}
+#navmenu, li ,a {
+    text-decoration: none;
+    list-style-type:none;
+    color: black;
+    padding: 3px;
+}
+.sub1 {
+    display: none;
+    position: absolute;
+    top: 30px;
+    text-align: left;
+    border-radius: 12px;
+    background-color: white;
+}
+.sub1  a{
+    display: block;
+    margin-bottom: 5px;
+   
+}
+#navmenu li:hover .sub1{
+    display: block;
+}
 main{
     max-width: 100vw;
     text-align: justify; 
     font: italic 500 1.2em roboto , sans-serif ; 
      background: black url(../imagens/back-artigo.jpg)no-repeat center bottom;
      background-size: cover;
+     z-index: 99;
 }
 h2{
     font: normal 700 3vw roboto , sans-serif;
@@ -244,6 +279,7 @@ footer i{
     header{
         background: black url(../imagens/header-mobile.jpg) no-repeat center bottom;
         background-size: cover;
+        z-index: 100;
     }
     header h1{
        font-size: 7em;
@@ -279,8 +315,9 @@ footer i{
         width:140px;
         color: black;
         z-index: 101;
-        display: none;
-        
+        display: none;    
+        border-radius: 10px;
+        background-color: white;
     }
     #navmenu li:hover .sub1{
         display: none;
@@ -290,6 +327,7 @@ footer i{
         left: 139px;
         top: 0px;
         z-index: 102;
+        
     }
     .sub1 a{
         margin-bottom: 0%;
@@ -299,12 +337,12 @@ footer i{
         margin: 0%;
         padding: 3px;
         margin-bottom: 0px;
-        border-radius: 0px;
+        border-radius: 10px;
         line-height: 10px;
         position: relative;
         display: block;
         float: none;
-        background-color: lightgray;
+        background-color: rgb(255, 255, 255);
          font: italic 700 1.1em roboto sans-serif;
     }
     section h2{
@@ -322,7 +360,7 @@ footer i{
         margin-left: 0%;
     }
     #img1{
-        background: black url(../imagens/tartaruga-celular.jpg)no-repeat right center;
+        background: black url(../imagens/tartaruga-celular.jpg)no-repeat center center;
         background-size: cover;
         background-attachment: fixed;
     }

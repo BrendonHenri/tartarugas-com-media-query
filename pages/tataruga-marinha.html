@@ -9,13 +9,14 @@
     <link rel="stylesheet" href="../estilos/style2.css" >
     <title>Animals</title>
 </head>
-<header>
+<body onresize="mudouTamanho()">   
+    <header>
         <h1>Animals</h1>
         <p>A vida Selvagem</p>
         <i id="bars" class="fa-sharp fa-solid fa-bars" style="color: #000000;" onclick="clickMenu()"></i>
         <nav id="menu">
             <ul id="navmenu">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="../index.html">Home</a></li>
                 <li  onclick="expand()"><a href="#">Espécies</a>
                     <ul class="sub1" id="isub1">
                         <li><a href="#">Marinhas</a></li>
@@ -29,8 +30,7 @@
                 <li><a href="#">Sobre nós</a></li> 
             </ul>
         </nav>
-</header>
-<body>   
+    </header>
     <main> 
             <section class="text">
                 <h2>Tratarugas Marinhas</h2>
@@ -82,6 +82,13 @@
         <label id="lhome" for="home">Home<a href="index.html" target="_self"><img src="../imagens/home.png" id="home" alt="logo-home"></a></label>
     </footer>
     <script>
+        function mudouTamanho(){
+            if (window.innerWidth >= 600){
+                navmenu.style.display = 'block'
+            } else{
+                navmenu.style.display = 'none'
+            }
+        }
         function clickMenu(){
            if (navmenu.style.display == 'block') {
             navmenu.style.display = 'none'
@@ -96,6 +103,7 @@
             isub1.style.display = 'block'
            }
         }
+        
     </script>
 </body>
 </html>
