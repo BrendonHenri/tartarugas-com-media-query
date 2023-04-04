@@ -43,6 +43,9 @@
         display: none;
         
     }
+    #navmenu li:hover .sub1{
+        display: none;
+    }
     .sub1{
         display:none;
         left: 139px;
