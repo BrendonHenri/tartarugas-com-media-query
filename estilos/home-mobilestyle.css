@@ -37,7 +37,7 @@
         display: flex;
         flex-direction: column;
         top: 100%;
-        width:35vw;
+        width:140px;
         color: black;
         z-index: 101;
         display: none;
@@ -70,6 +70,7 @@
     }
     main{
         padding: 0px;
+        z-index: 99;
     }
     .prepresent{
         width: 79vw;
