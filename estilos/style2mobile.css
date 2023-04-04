@@ -1,5 +1,6 @@
 @charset "utf-8";
-
+@media screen and (max-width:600px) {
+    
     header{
         background: black url(../imagens/header-mobile.jpg) no-repeat center bottom;
         background-size: cover;
@@ -130,3 +131,4 @@
     #siga{
         display: none;
     }
+}
