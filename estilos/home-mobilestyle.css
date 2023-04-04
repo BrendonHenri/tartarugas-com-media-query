@@ -76,6 +76,7 @@
         top: 75%;
         padding: 5px;
         transform: translate(-50%, -50%);
+        overflow: hidden;
     }
     section{
         max-width: 100vw;
@@ -92,11 +93,11 @@
     }
     
     article img{
-        width: 300px;
-        height: 190px;
+        width: 75vw;
+        height: 180px;
         position: absolute;
-        top: 0%;
-        left: 12%;
+        top: 10px;
+        left: 7%;
     }
     .btnler{
         margin: 0;
