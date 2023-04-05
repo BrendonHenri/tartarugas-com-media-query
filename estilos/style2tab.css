@@ -1,8 +1,15 @@
 @charset "utf-8";
 @media screen and (min-width: 600px)and (max-width:992px) {
 
+ header h1{
+     font-size: 21vw;
+ }
+ header p{
+     font-size: 5vw;
+     padding-top: 10px;
+}
 #navmenu>li{
-    margin: 228px 20px 0px 15px ;
+    margin: 190px 20px 0px 15px ;
 }
 section p{
     width: 400px;

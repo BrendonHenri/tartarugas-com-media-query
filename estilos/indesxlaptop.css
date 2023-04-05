@@ -1,0 +1,55 @@
+@charset "utf-8";
+@media screen and (min-width:993px) and (max-width:1300px) {
+header{
+    z-index: 100;
+}
+    section{
+        width: 700px;
+        z-index: 99;
+    }
+    section article{
+        max-width: 650px;
+    }
+    .prepresent{
+        width: 380px;
+    }
+    article img{
+        width: 250px;
+        left: 18px;
+        height: 160px;
+    }
+    .btnler{
+        top:210px ;
+        left: 560px;
+    }
+    footer h1 {
+        font-size: 7em;
+    }
+    footer p{
+        font-size: 1em;
+    }
+    #copy{
+        margin-top: 90px;
+    }
+    #siga{
+        left: 47%;
+    }
+    #insta, #paiinsta{
+        left: 40%;
+     }
+     #face{
+         left: 50%;
+     }
+     #linke{
+         left: 60%;
+     }
+    #linkename, #facename, #instname{
+        left: 45%;
+        top: 130px;      
+    }
+    #lhome{
+        left: 80%;
+    }
+    }
+    
+}
