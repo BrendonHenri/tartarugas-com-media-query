@@ -1,0 +1,134 @@
+@charset "utf-8";
+@media screen and (max-width:600px) {
+    
+    header{
+        background: black url(../imagens/header-mobile.jpg) no-repeat center bottom;
+        background-size: cover;
+        z-index: 100;
+    }
+    header h1{
+       font-size: 7em;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        width: 400px;
+      
+    }
+    header p{
+        font-size:5vw;
+        position: absolute;
+        left: 50%;
+        top: 70%;
+        transform: translate(-50%,-50%);
+    }
+    #bars{
+        display: block;
+        font-size: 2.6em;
+        position: absolute;
+        top: 80%;
+        border-radius: 50%;
+        padding: 6px;
+        left: 10px;
+        box-shadow: 0px 2px 6px black;
+        background-color: white;
+    }
+    #navmenu{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 100%;
+        width:140px;
+        color: black;
+        z-index: 101;
+        display: none;    
+        border-radius: 10px;
+        background-color: white;
+    }
+    #navmenu li:hover .sub1{
+        display: none;
+    }
+    .sub1{
+        display:none;
+        left: 139px;
+        top: 0px;
+        z-index: 102;
+        
+    }
+    .sub1 a{
+        margin-bottom: 0%;
+        border-radius: 0%;
+    }
+    #navmenu li{
+        margin: 0%;
+        padding: 3px;
+        margin-bottom: 0px;
+        border-radius: 10px;
+        line-height: 10px;
+        position: relative;
+        display: block;
+        float: none;
+        background-color: rgb(255, 255, 255);
+         font: italic 700 1.1em roboto sans-serif;
+    }
+    section h2{
+        font-size: 6vw;
+    }
+    section{
+        max-width: 100vw;
+        padding: 15px;
+    }
+    section p{
+        max-width: 90vw;
+    }
+    .text p{
+        max-width: 90vw;
+        margin-left: 0%;
+    }
+    #img1{
+        background: black url(../imagens/guepard1-mobile.jpg)no-repeat center center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    #img2{
+        background: black url(../imagens/guepard2-mobile.jpg)no-repeat center center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    footer{
+        max-width: 100vw;
+    }
+    footer h1{
+        font-size: 4em;
+        text-align: center;
+        max-width: 100vw;
+    }
+    footer p{
+        font-size: 1em;
+        max-width: 100vw;
+    }
+    #copy{
+        max-width: 100vw;
+        margin-top: 125px;
+    }
+  
+    #insta{
+       left: 50px;
+    }
+    #face{
+        left: 130px;
+    }
+    #linke{
+        left: 210px;
+    }
+    #linkename, #facename, #instname{
+        left: 80px;
+        top: 130px;      
+    }
+    #lhome{
+        left: 340px;
+        top: 200px;
+    }
+    #siga{
+        display: none;
+    }
+}
