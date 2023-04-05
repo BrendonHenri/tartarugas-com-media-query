@@ -1,7 +1,9 @@
 @charset "utf-8";
 @media screen and (min-width: 600px)and (max-width:992px) {
 
-
+#navmenu>li{
+    margin: 228px 20px 0px 15px ;
+}
 section p{
     width: 400px;
 }

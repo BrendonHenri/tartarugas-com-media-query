@@ -1,0 +1,35 @@
+@charset "utf-8";
+@media screen and (min-width:992px) and (max-width:1300px) {
+    
+.text>p {
+    margin-left: 320px;
+}
+footer h1 {
+    font-size: 7em;
+}
+footer p{
+    font-size: 1em;
+}
+#copy{
+    margin-top: 90px;
+}
+#siga{
+    left: 47%;
+}
+#insta, #paiinsta{
+    left: 40%;
+ }
+ #face{
+     left: 50%;
+ }
+ #linke{
+     left: 60%;
+ }
+#linkename, #facename, #instname{
+    left: 45%;
+    top: 130px;      
+}
+#lhome{
+    left: 80%;
+}
+}
