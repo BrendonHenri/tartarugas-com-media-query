@@ -95,7 +95,7 @@
         height: 400px;
         position: relative;
         border-radius: 0%;
-        z-index: 100;
+        z-index: 1;
         overflow: hidden;
     }
     section article{
