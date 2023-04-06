@@ -6,23 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/7045c0e8c0.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../estilos/login.css" media="all">
+    <link rel="stylesheet" href="../estilos/loginmobile.css" media="screen">
     <title>login</title>
 </head>
 <body>
     <div id="image">
-        <img src="../imagens/raposinha.png" alt="">
+        <picture>
+            <source media="(max-width:600px)" srcset="../imagens/raposinha-mobile.png" type="image/png">
+            <img src="../imagens/raposinha.png" alt="">
+        </picture>   
     </div>
     <div id="form">
         <h3>acesse</h3>
-        <p>Faça o acesso com seu login de usuário, e tenha uma experiência com todos o benefícios de ser um assinante</p>
-         <form action="formulario.php"></form>
+        <p>Faça o acesso com seu login de usuário, e tenha uma experiência com todos o benefícios de ser um assinante.</p>
+         <form action="formulario.php" method="post"></form>
         <i class="fa-solid fa-user " style="color: #3f0255;"> <label for="iemail">email</label>
-            <input type="email" name="email" id="iemail" autocomplete="email" required ></i>
+            <input type="email" name="email" id="iemail" autocomplete="email" required placeholder="exemple@.com"></i>
         <i class="fa-solid fa-key " style="color: #3f0255;"> <label for="ipassword">password</label>
             <input type="password" name="password" id="ipassword" required minlength="9" maxlength="20"></i>   
-            <input type="submit" value="entar">
-        </form>
-            
+            <input id="entrar" type="submit" value="entar">
+            <a id="btnlost" href="#" target="_self">Esqueci Minha Senha</a>
+        </form>       
     </div>
 </body>
 </html>

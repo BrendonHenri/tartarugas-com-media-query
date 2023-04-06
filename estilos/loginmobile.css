@@ -1,0 +1,75 @@
+@charset "utf-8";
+@media screen and (max-width:600px) {
+   
+    body{
+        background: black url(../imagens/fundo-lobin-mobile.jpg) no-repeat ;
+        background-size: cover;
+    }
+    #image{
+        left: 0%;  
+        top: 10px;   
+    }
+    #image img{
+        width: 400px;
+    }
+    #form{
+        width: 300px;
+        height: 500px;
+        left: 48%;
+        top: 60%;
+    }
+    #form h3 {
+        position: absolute;
+        top: 25%;
+    }
+    #form p{
+        width: 270px;
+        font-size: 1em;
+        position: absolute;
+        top: 40%;
+        text-align: justify;
+
+    }
+    #form i{
+        width: 250px;   
+    }
+    .fa-user{
+        position: absolute;
+        top: 57%;
+    }
+   .fa-key{
+    position: absolute;
+    top: 70%;
+   }
+    #ipassword{
+        top: 10%;
+        left: 16%;
+        position: absolute;
+    }
+    #iemail{
+        top: 10%;
+        left: 16%;
+        position: absolute;
+    }
+    #ipassword, #iemail{
+        width: 200px;
+        height: 40px;
+    }
+    #entrar{
+        width: 80px;
+        height: 40px;
+        font-size: 1em;
+        position: absolute;
+        top: 80%;
+    }
+    #btnlost{
+        width: 130px;
+        height: 40px;
+        font-size: 1em;
+        left: -20%;
+        top: 87%;
+        padding: 2px;
+        line-height: 17px;
+        text-align: center;
+    }
+}
