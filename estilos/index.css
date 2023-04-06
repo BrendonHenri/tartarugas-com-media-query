@@ -110,7 +110,7 @@ header h1{
 main{
     background: black url(../imagens/back-main.jpg) no-repeat center center;
     background-size: cover;
-    padding: 20px;
+    padding: 10px;
 }
 section{
     width: 52vw;
