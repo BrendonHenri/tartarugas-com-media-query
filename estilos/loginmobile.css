@@ -2,7 +2,8 @@
 @media screen and (max-width:600px) {
    
     body{
-        background: black url(../imagens/fundo-lobin-mobile.jpg) no-repeat ;
+        background: black url(../imagens/fundo-lobin-mobile.jpg) no-repeat;
+        background-position: center right;
         
     }
     #image{
