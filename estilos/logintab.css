@@ -2,10 +2,8 @@
 @media screen and (min-width:601px) and (max-width:992px) {
    
     body{
-        background: black url(../imagens/fundo-lobin-mobile.jpg) no-repeat right bottom;
-        background-size: cover;
-        
-        
+        background: black url(../imagens/fundo-login.jpg) no-repeat right bottom;
+        background-size: cover;    
     } #image{
         left: 0%;
         top: 0%;
@@ -13,27 +11,27 @@
         height: 100vh;
     }
     #image img{
-        width: 400px;
+        width: 300px;
         position: absolute;
-        left: 50%;  
-        top: 20%;  
+        left: 70%;  
+        top: 55%;  
         transform: translate(-50% ,-50%); 
     }
     #form{
-        width: 300px;
-        height: 500px;
-        left: 48%;
+        width: 500px;
+        height: 250px;
+        left: 35%;
         top: 60%;
     }
     #form h3 {
         position: absolute;
-        top: 25%;
+        top: 0px;
     }
     #form p{
-        width: 270px;
+        width: 350px;
         font-size: 1em;
         position: absolute;
-        top: 40%;
+        top: 50px;
         text-align: justify;
 
     }
@@ -42,11 +40,11 @@
     }
     .fa-user{
         position: absolute;
-        top: 57%;
+        top: 37%;
     }
    .fa-key{
     position: absolute;
-    top: 70%;
+    top: 60%;
    }
     #ipassword{
         top: 10%;
@@ -67,14 +65,14 @@
         height: 40px;
         font-size: 1em;
         position: absolute;
-        top: 80%;
+        top: 68%;
     }
     #btnlost{
         width: 130px;
         height: 40px;
         font-size: 1em;
-        left: -20%;
-        top: 87%;
+        left: -10%;
+        top: 82%;
         padding: 2px;
         line-height: 17px;
         text-align: center;
