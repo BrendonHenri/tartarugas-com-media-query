@@ -46,6 +46,7 @@ header{
   font: italic 700 1.3em roboto sans-serif;
   background-color: rgb(255, 255, 255);
   border-radius: 12px;
+  border: 1px solid black;
 
 }
 #navmenu, li ,a {

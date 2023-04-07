@@ -8,6 +8,11 @@
      font-size: 5vw;
      padding-top: 10px;
 }
+#btnlogin{
+    left: 10px;
+    width: 100px;
+    height: 35px;
+}
 #navmenu>li{
     margin: 190px 20px 0px 15px ;
 }

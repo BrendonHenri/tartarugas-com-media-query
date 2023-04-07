@@ -49,6 +49,21 @@ header h1{
     animation: gradient 4s ease infinite;
     background-size: 300% 300%;
 }
+#btnlogin{
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    left: 88%;
+    top: 5%;
+    border-radius: 16px;
+    font: italic 700 1.3em roboto sans-serif;
+}
+#btnlogin:hover{
+    width: 140px;
+    height: 50px;
+    background-color: greenyellow;
+    transition-duration: .8s;
+}
 #bars{
     display: none;
 }
