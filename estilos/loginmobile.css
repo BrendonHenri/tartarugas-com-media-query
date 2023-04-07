@@ -7,11 +7,17 @@
         
     }
     #image{
-        left: 0%;  
-        top: 10px;   
+        left: 0%;
+        top: 0%;
+        width: 100vw;
+        height: 100vh;
     }
     #image img{
         width: 400px;
+        position: absolute;
+        left: 50%;  
+        top: 20%;  
+        transform: translate(-50% ,-50%); 
     }
     #form{
         width: 300px;
